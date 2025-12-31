@@ -11,7 +11,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class Productpage extends Basepage {
 	
-	List<WebElement> allLinks = new ArrayList<WebElement>();
+	public List<WebElement> allLinks = new ArrayList<WebElement>();
 	String productName;
 	
 	@FindBy(xpath="//input[@id='twotabsearchtextbox']")
